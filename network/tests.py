@@ -24,20 +24,20 @@ while running:
             print("Error 404 page not found.")
 
 if count <= 5:
-    print("you exited really early...was there a problem with your service?")
+    print("you exited at only " + str(count) + " times ...was there a problem with your service?")
     c = input()
 elif count > 5 and count <= 14:
     print("Were you satisfied with your service?")
     s = input()
 elif count > 15:
-    print("you stayed in the loop for a long time were you afk?")
+    print("you stayed in the loop for " + str(count) + " counts, were you afk?")
     a = input()
 else:
     print("Bad input please try again")
 
 while running:
-    name = input("what is your NAME????? ")
-    print("HELLOW" + name)
+    name = input("What is your NAME????? ")
+    print("HELLOW " + name)
     yes = input("If I said your name correctly say 'yes' ")
     if yes == "yes":
         print("ok thank you")
@@ -45,3 +45,16 @@ while running:
     else:
         print("I'm sorry I got your name wrong")
         print("lets try again shall we...")
+
+while running:
+    print("Ha you got stuck in an infinite loop")
+    print('HAAAAAAA' * 1000000)
+    print("You are never getting out")
+    print('HAAAAAAA' * 1000000)
+    q = input()
+    if q == "quit" or q == "QUIT" or q == "Quit":
+        break
+
+print("You have successfully left the loop...")
+print("Heres your prize: ")
+print("You have been gifted 50000000 bits congrats you're rich.")
