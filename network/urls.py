@@ -1,15 +1,15 @@
 
-from django.urls import path
+#from django.urls import path
 
-from . import views
+#from . import views
 
-urlpatterns = [
-    path("", views.index, name="index"),
-    path("login", views.login_view, name="login"),
-    path("logout", views.logout_view, name="logout"),
-    path("register", views.register, name="register")
-]
-cv = mv = cv
-nice for the cv
-yas is to yas = cv
+#urlpatterns = [
+    #path("", views.index, name="index"),
+    #path("login", views.login_view, name="login"),
+    #path("logout", views.logout_view, name="logout"),
+    #path("register", views.register, name="register")
+#]
+cv = "mate"
+nice = "the cv"
+y = "uj yas"
 cv = 0

@@ -34,3 +34,14 @@ elif count > 15:
     a = input()
 else:
     print("Bad input please try again")
+
+while running:
+    name = input("what is your NAME????? ")
+    print("HELLOW" + name)
+    yes = input("If I said your name correctly say 'yes' ")
+    if yes == "yes":
+        print("ok thank you")
+        break
+    else:
+        print("I'm sorry I got your name wrong")
+        print("lets try again shall we...")
